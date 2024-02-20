@@ -1,0 +1,60 @@
+#ifndef MAIN_H
+
+
+#define MAIN_H
+
+#include<stdio.h>
+
+int _putchar(char c);
+void print_alphabet(void);
+void print_alphabet_x10(void);
+int _islower(int c);
+int _isalpha(int c);
+int print_sign(int n);
+int _abs(int);
+root@358d78da8e8f44b9a631396d8660403c-2377118072:/holbertonschool-low_level_programming/functions_nested_loops# gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 6-main.c 6-abs.c -o 6-abs
+cc1: fatal error: 6-main.c: No such file or directory
+compilation terminated.
+root@358d78da8e8f44b9a631396d8660403c-2377118072:/holbertonschool-low_level_programming/functions_nested_loops# emacs 6-main.c
+root@358d78da8e8f44b9a631396d8660403c-2377118072:/holbertonschool-low_level_programming/functions_nested_loops# git add .
+root@358d78da8e8f44b9a631396d8660403c-2377118072:/holbertonschool-low_level_programming/functions_nested_loops# git commit -m "Adding 6-main.c"
+[main 0cd51ab] Adding 6-main.c
+ 1 file changed, 22 insertions(+)
+ create mode 100644 functions_nested_loops/6-main.c
+root@358d78da8e8f44b9a631396d8660403c-2377118072:/holbertonschool-low_level_programming/functions_nested_loops# git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 319 bytes | 319.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/hugh789/holbertonschool-low_level_programming.git
+   1f4b71a..0cd51ab  main -> main
+root@358d78da8e8f44b9a631396d8660403c-2377118072:/holbertonschool-low_level_programming/functions_nested_loops# gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 6-main.c 6-abs.c -o 6-abs
+root@358d78da8e8f44b9a631396d8660403c-2377118072:/holbertonschool-low_level_programming/functions_nested_loops# ./6-abs
+1
+0
+1
+98
+root@358d78da8e8f44b9a631396d8660403c-2377118072:/holbertonschool-low_level_programming/functions_nested_loops# edit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#endif /* MAIN_H */
