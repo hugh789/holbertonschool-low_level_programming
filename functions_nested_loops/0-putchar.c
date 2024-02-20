@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - Entry point of the program
@@ -9,14 +9,14 @@
  */
 int main(void)
 {
-    putchar('_'); /* Print the character '_' */
-    putchar('p'); /* Print the character 'p' */
-    putchar('u'); /* Print the character 'u' */
-    putchar('t'); /* Print the character 't' */
-    putchar('c'); /* Print the character 'c' */
-    putchar('h'); /* Print the character 'h' */
-    putchar('a'); /* Print the character 'a' */
-    putchar('r'); /* Print the character 'r' */
-    putchar('\n'); /* Print a newline character */
+    _putchar('_'); /* Print the character '_' */
+    _putchar('p'); /* Print the character 'p' */
+    _putchar('u'); /* Print the character 'u' */
+    _putchar('t'); /* Print the character 't' */
+    _putchar('c'); /* Print the character 'c' */
+    _putchar('h'); /* Print the character 'h' */
+    _putchar('a'); /* Print the character 'a' */
+    _putchar('r'); /* Print the character 'r' */
+    _putchar('\n'); /* Print a newline character */
     return (0); /* Return 0 to indicate success */
 }
