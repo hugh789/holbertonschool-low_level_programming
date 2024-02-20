@@ -1,17 +1,20 @@
 #include <stdio.h>
 
+/**
+ * main - Entry point
+ *
+ * Description: Prints the lowercase alphabet using putchar
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-  /*declare a variable*/
-    char alphabet;
+	char alphabet;
 
-    for (alphabet = 'a'; alphabet <= 'z' ; alphabet++)
-    {
-      /* print the value of the variable*/ 
-        putchar(alphabet);
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+	{
+		putchar(alphabet);
+	}
 
-    }
-
-    putchar('\n');
-    return (0);
+	return (0);
 }
