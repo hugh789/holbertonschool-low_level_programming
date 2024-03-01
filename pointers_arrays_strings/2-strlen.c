@@ -1,24 +1,18 @@
-#include <stdio.h>
-#include <main.h>
-
-#define MAX_SIZE 100 /* Maximum size of string */
+#include "main.h"
 
 /**
- * main - Entry point
+ * _strlen - Returns the length of a string
+ * @s: Pointer to the string to be measured
  *
- * Description: This function prompts the user to input a string,
- * calculates its length using strlen, and prints the result.
- *
- * Return: Always 0 (Success)
+ * Description: This function calculates length of the string pointed to by s.
+ * Return: Length of the string
  */
-int main(void)
+int _strlen(char *s)
 {
-    char text[MAX_SIZE];
-    int length;
+	int length = 0;
 
-    length = strlen(text);
-
-    printf("Length of '%s' = %d",length);
-
-    return (0);
+	for (; *s++;)
+		length++;
+	
+	return (length);
 }
