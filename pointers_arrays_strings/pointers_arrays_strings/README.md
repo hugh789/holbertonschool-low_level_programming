@@ -1,0 +1,1 @@
+To be updated for C - Even more pointers, arrays and strings before recurssions
