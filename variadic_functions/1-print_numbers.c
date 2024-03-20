@@ -9,7 +9,7 @@
  * @...: The integers to print.
  */
 
-void print_numbers(const char *separator, const unsigned int n, ...);
+void print_numbers(const char *separator, const unsigned int n, ...)
 {
     unsigned int count = 0;
     va_list args;
