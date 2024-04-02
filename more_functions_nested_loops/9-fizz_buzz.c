@@ -10,21 +10,8 @@
  */
 int main(void)
 {
-	int i;
-
-	for (i = 1; i <= 100; i++)
-	{
-		if (i % 15 == 0)
-			printf("FizzBuzz");
-		else if (i % 3 == 0)
-			printf("Fizz");
-		else if (i % 5 == 0)
-			printf("Buzz");
-		else
-			printf("%i", i);
-		if (i < 100)
-			printf(" ");
-	}
-	printf("\n");
-	return (0);
+    int i = 0; char B[88] ;
+    while (i++ < 100)
+    !sprintf (B, "%s%s", i%3 ? "":"Fizz", i%5 ? "":"Buzz")
+    ? sprintf(B, "%d", i):0, printf (", %s", B);
 }
