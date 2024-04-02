@@ -17,5 +17,6 @@ int main(void)
         !sprintf(B, "%s%s", i % 3 ? "" : "Fizz", i % 5 ? "" : "Buzz")
             ? sprintf(B, "%d", i) : 0, printf(", %s", B);
 
+printf("\n");
     return (0);
 }
